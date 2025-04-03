@@ -1,0 +1,481 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+.company
+{
+    grid-area: main;
+    margin-bottom: 100px;
+}
+header{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+header > p
+{
+    display:inline-flex;
+    color:white;
+}
+header a
+{
+    color:white;
+    padding-left: 5px;
+}
+.address
+{
+    padding: 30px;
+}
+.address > p
+{
+    display:inline-flex;
+}
+.address #email-address
+{
+    float:left;
+    margin-left: 100px;
+}
+.address #phone
+{
+    float:right;
+    margin-right: 100px;
+}
+.address > p > i
+{
+    color: darkmagenta;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navigation
+{
+    text-align: center;
+    gap:3%;
+}
+.navigation > ul
+{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 50px;
+}
+.navigation a
+{
+    text-decoration: none;
+    margin: 50px;
+    color: darkkhaki;
+    font-weight: bolder;
+}
+.navigation #home
+{
+    color:darkgrey;
+}
+.company .family
+{
+    background-image:url('images/image copy 31.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    color:white;
+    text-align: center;
+    padding:400px 500px;
+}
+.company .family h1
+{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.company .family p
+{
+    color:black;
+    font-weight: bolder;
+}
+.company .family > button
+{
+    padding: 20px 40px ;
+    background-color: darkolivegreen;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.introduce
+{
+    grid-area: introduce;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.introduce .part
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    width:800px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.introduce .part div
+{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.introduce .picture img
+{
+    width: 500px;
+    height:500px;
+}
+.introduce h1
+{
+    font-size: 50px;
+}
+.introduce a
+{
+    color: darkkhaki;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icon
+{
+    grid-area: icon;
+    display:flex;
+    text-align: center;
+    margin: 100px;
+    gap:14%;
+
+}
+.head
+{
+    grid-area:head;
+    text-align: center;
+    padding: 50px;
+}
+.head h1
+{
+    font-size: 50px;
+}
+.usage
+{
+    grid-area: usage;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    gap:11%;
+}
+.usage .storage
+{
+    background-color: darkcyan;
+    color: white;
+}
+.usage i
+{
+    font-size: 100px;
+}
+.usage a
+{
+    text-decoration: none;
+}
+.process
+{
+    grid-area: step;
+    text-align: center;
+    margin: auto;
+    display:inline-flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.process p
+{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-weight: bolder;
+    text-align: start;
+}
+.process h1
+{
+    font-size: 40px;
+    text-align: start;
+    margin-left: 30px;
+}
+.process div
+{
+    background-image: url("images/image copy 21.png");
+    text-align: center;
+    width:200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.process i
+{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.first
+{
+    grid-area: first;
+    display: grid;
+    grid-template-columns: auto auto;
+    height:700px;
+    margin: auto;
+}
+.first .image-container
+{
+    width:500px;
+    padding-right: 40px;
+    background-color: #529FDF;
+    margin-right: 100px;
+}
+.first .check
+{
+    background-image: url('images/image copy 16.png');
+    background-repeat: no-repeat;
+    height:400px;
+    text-align: center;
+    padding: 20px;
+}
+.first .riaad
+{
+    background-color: white;
+    color:black;
+    width: 250px;
+    height: 150px;
+    padding: 30px;
+}
+.first .image-container > p
+{
+    color:white;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.first .choose-riaad
+{
+    width: 500px;
+    
+}
+.first .choose-riaad .paragraph
+{
+    display:inline-flex;
+    padding: 50px;
+    font-weight: bolder;
+}
+.first .contact
+{
+    padding-left: 500px;
+    padding-top: 40px;
+}
+.first .choose-riaad i,h1
+{
+    font-size: 40px;
+}
+.search .article
+{
+    background-image: url('images/image copy 11.png');
+}
+.photo
+{
+    grid-area: photo;
+    height:1000px;
+    background-image: url('images/image copy 16.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:50px;
+    text-align: center;
+    font-size: 150px;
+    align-items: center;
+}
+.photo i
+{
+    margin-top: 450px;
+}
+.booking
+{
+    grid-area: booking;
+    display:grid;
+    grid-template-columns: auto auto ;
+}
+.booking .request
+{
+    background-color:darkkhaki ;
+    padding-left:400px;
+    padding-top: 100px;
+    color:white;
+}
+.booking .request h1
+{
+    font-size: 50px;
+}
+.booking .form
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:darkgray ;
+    padding: 50px;
+}
+.booking button
+{
+    width: 150px;
+    height: 55px;
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color:darkgray;
+    color: white;
+    border:none;
+}
+.booking .form label
+{
+    color: darkcyan;
+    font-weight: bolder;
+}
+.booking sup
+{
+    color: dimgray;
+}
+.witness
+{
+    grid-area: witness;
+    text-align: center;
+    padding: 80px;
+}
+.witness h1
+{
+    font-size: 50px;
+}
+.reviews
+{
+    grid-area: reviews;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap:100px;
+    margin-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.reviews span
+{
+    font-size: 60px;
+    color:white;
+    background-color: #1598CC;
+    border-radius: 200%;
+}
+.reviews .christine
+{
+    color: darkgray;
+    font-weight: bolder;
+}
+.combine
+{
+    grid-area: join;
+    text-align: center;
+}
+.combine .search
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 350px;
+    grid-gap: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: start;
+    margin-left: 20%;
+}
+.combine h1
+{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.combine a
+{
+    color: darkkhaki ;
+    font-weight: bolder;
+}
+.combine button
+{
+    background-color: darkkhaki;
+    width: 200px;
+    padding:25px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.combine .search .article-1
+{
+    background-image: url("images/image copy 28.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.combine .search .article-2
+{
+    background-image: url('images/image copy 29.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.combine .search .article-3
+{
+    background-image: url("images/image copy 26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.combine .search  p
+{
+    color:darkkhaki;
+    font-weight: bolder;
+}
+.footer
+{
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.footer .create
+{
+    background-color: darkgrey;
+    display: inline-flex;
+    padding: 100px;
+    color: white;
+}
+.footer .create button
+{
+    padding: 25px;
+    width: 200px;
+    background-color: darkolivegreen;
+    border: none;
+    margin-left: 40%;
+}
+.footer .create a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.footer h1
+{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.footer .footertitle
+{
+    background-color: darkkhaki;
+    display: inline-flex;
+    padding: 100px;
+}
+.footer ul
+{
+    list-style-type: none;
+    margin-left: 200px;
+    color: white;
+}
